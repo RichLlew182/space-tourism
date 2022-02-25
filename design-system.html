@@ -132,13 +132,13 @@
       </div>
 
       <div class="flex">
-        <div style="margin-top: 5rem; margin-bottom: 50vh"">
+        <div class="flow" style="margin-top: 5rem;">
           <!-- explore button -->
           <a class=" large-button bg-white text-dark uppercase ff-serif fs-600" href="#">Explore</a>
 
         </div>
 
-        <div>
+        <div class="flow" style="margin-bottom: 50vh; --flow-space: 4rem;">
           <!-- Tabs -->
           <div class="secondary-navigation underline-indicators flex">
             <button aria-selected="true"
@@ -152,8 +152,21 @@
 
           <!-- Dots -->
 
+          <div class="dot-indicators flex">
+            <button aria-selected="true"><span class="sr-only">Slide Title</span></button>
+            <button aria-selected="false"><span class="sr-only">Slide Title</span></button>
+            <button aria-selected="false"><span class="sr-only">Slide Title</span></button>
+          </div>
+
+
 
           <!-- Numbers -->
+
+          <div class="number-indicators grid">
+            <button class="ff-serif fs-600 text-white" aria-selected="true"><span>1</span></button>
+            <button class="ff-serif fs-600 text-white" aria-selected="false"><span>2</span></button>
+            <button class="ff-serif fs-600 text-white" aria-selected="false"><span>3</span></button>
+          </div>
         </div>
       </div>
 

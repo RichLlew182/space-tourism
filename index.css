@@ -392,3 +392,44 @@ select {
 .secondary-naviation {
     --gap: 3rem;
 }
+
+/* Dot Indicators */
+
+.dot-indicators button {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(var(--clr-white) / .17)
+}
+
+.dot-indicators button:hover,
+.dot-indicators button:focus {
+    background-color: rgb(var(--clr-white) / .50)
+}
+
+.dot-indicators button.active,
+.dot-indicators button[aria-selected="true"] {
+    background-color: rgb(var(--clr-white))
+}
+
+.number-indicators button {
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid rgb(var(--clr-white) / .15);
+    background-color: transparent;
+}
+
+.number-indicators button:hover,
+.number-indicators button:focus {
+    border: 1px solid rgb(var(--clr-white));
+}
+
+.number-indicators button.active,
+.number-indicators button[aria-selected="true"] {
+    background-color: rgb(var(--clr-white));
+    color: rgb(var(--clr-dark))
+}
