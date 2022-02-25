@@ -165,6 +165,7 @@ select {
     /* font-sizes */
     --fs-900: 9.375rem;
     --fs-800: 6.25rem;
+    --fs-750: 5rem;
     --fs-700: 3.5rem;
     --fs-600: 2rem;
     --fs-500: 1.75rem;
@@ -256,6 +257,10 @@ select {
 
 .fs-800 {
     font-size: var(--fs-800);
+}
+
+.fs-750 {
+    font-size: var(--fs-700);
 }
 
 .fs-700 {
@@ -432,4 +437,13 @@ select {
 .number-indicators button[aria-selected="true"] {
     background-color: rgb(var(--clr-white));
     color: rgb(var(--clr-dark))
+}
+
+/* Homepage */
+
+body.home-page {
+    background-image: url(assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
