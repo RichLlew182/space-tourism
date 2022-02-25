@@ -125,7 +125,6 @@ select {
 
 .flow>*+* {
     margin-top: var(--flow-space, 1rem);
-    border: 1px solid red;
 }
 
 .grid {
