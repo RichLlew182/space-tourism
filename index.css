@@ -135,7 +135,7 @@ select {
 
 .container {
     width: 100%;
-    padding-inline: 2em;
+    padding: 4em;
     max-width: 80rem;
     margin-inline: auto
 }
